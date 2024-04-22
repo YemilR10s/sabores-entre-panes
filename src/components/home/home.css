@@ -1,0 +1,136 @@
+.homeSection{
+    width: 100%;
+    height: 700px;
+   
+}
+.homeSection .video{
+    position: relative;
+    width: 100%;
+    height: 700px;
+    overflow: hidden;
+}
+.homeSection .video video{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+.homeSection .content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 2; 
+    
+  }
+.homeSection .content .homeH1{
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: 3em;
+
+}
+.homeSection .content .homeTexto{
+    width: 800px;
+    height: 150px;
+    margin: 30px 0 0 0;
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+
+}
+.homeSection .iconosYbutton{
+    display: flex;
+    align-items: center;
+}
+.homeSection .iconosYbutton i{
+    color: white ;
+    font-size: 2.3em;
+    margin: 20px;
+    cursor: pointer;
+    
+}
+.homeSection .iconosYbutton button{
+    font-size: 1em;
+    background: none;
+    color: white;
+    padding: 20px;
+    border: 2px solid white;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+.especialidad{
+    display: flex;
+    width: 100%;
+    height: 600px;
+    background: url(bg2.jpg);
+   /*  background-position: center;
+    background-size: cover; */
+    z-index: 4;
+}
+.especialidad .imagen{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.especialidad .imagen .img{
+    background-image: url(hamburguesaGourmet.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 60%;
+    height: 550px;
+}
+.especialidad .texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+    
+}
+.especialidad .texto h2{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2.2em;
+    width: 100%;
+}
+.especialidad .texto p{
+    font-size: 1.5em;
+    width: 100%;
+
+}
+
+
+@media (max-width: 1000px) {
+.especialidad{
+    flex-direction: column;
+    height: 1100px;
+}
+.especialidad .imagen{
+    width: 100%;
+}
+.especialidad .imagen .img{
+    margin-top: 50px;
+    background-image: url(mobileBck.jpg);
+}
+.especialidad .texto{
+    width: 100%;
+}
+.especialidad .texto h2{  
+    font-size: 2em;
+}
+.especialidad .texto p{
+    font-size: 1.5em;
+    padding: 0 100px; 
+
+}
+}

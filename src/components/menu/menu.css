@@ -1,0 +1,59 @@
+.containerMenu{
+    width: 100%;
+    height: 1200px;
+    background-color: black;
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+    justify-content: space-around;
+    
+    
+    
+}
+.containerMenu .cajas{
+    width: 250px;
+    height: 400px;
+    border: 2px solid white;
+    margin-top: 100px;
+}
+.containerMenu .cajas .description{
+    width: 100%;
+    height: 200px;
+    color: aliceblue;
+}
+.containerMenu .cajas .hamburger .imagen{
+    width: 100%;
+    height: 250px;
+    background-image: url(hamburger.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.containerMenu .cajas .arepa .imagen{
+    width: 100%;
+    height: 250px;
+    background-image: url(arepa.png);
+    background-position: center;
+    background-size: cover;
+}
+.containerMenu .cajas .perro .imagen{
+    width: 100%;
+    height: 250px;
+    background-image: url(hotdog.png);
+    background-position: center;
+    background-size: cover;
+}
+.containerMenu .cajas .Salchipapa .imagen{
+    width: 100%;
+    height: 250px;
+    background-image: url(fries.png);
+    background-position: center;
+    background-size: cover;
+}
+.containerMenu .cajas .patacon .imagen{
+    width: 100%;
+    height: 250px;
+    background-image: url(patacon.png);
+    background-position: center;
+    background-size: cover;
+}
+
